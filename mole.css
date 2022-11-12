@@ -3,6 +3,8 @@
   position: relative;
   height: 482px;
   width: 640px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .wgs__mole-head {
@@ -10,6 +12,7 @@
   height: 356px;
   width: 376px;
   left: 109px;
+  transition: margin-top 0.25;
 }
 
 .wgs__mole-hill {
@@ -17,6 +20,14 @@
   height: 220px;
   width: 640px;
   top: 262px;
+}
+
+.wgs__mole-head--hidden {
+  position: absolute;
+  height: 356px;
+  width: 376px;
+  left: 109px;
+  margin-top: 500px;
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
